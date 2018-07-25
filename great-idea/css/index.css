@@ -48,9 +48,9 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
+/* * { */
+/*     box-sizing: border-box; */
+/* } */
 
 html, body {
     height: 100%;
@@ -63,4 +63,223 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+    width: 930px;
+    margin: auto;
+}
+
+header {
+    height: 30px;
+    width: 90%;
+    margin: 15px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* .main-nav a { */
+/*     display: flex; */
+/*     flex-flow: row wrap; */
+/*     justify-content: space-around; */
+/*     padding */
+/* } */
+
+.main-nav {
+    color: grey;
+    text-decoration: none;
+    display: flex;
+    width: 650px;
+    justify-content: space-around;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+.cta {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.cta .cta-text {
+    font-size: 70px;
+    align-self: center;
+    text-align: center;
+}
+
+.cta button {
+    display: flex;
+    margin: 0 auto;
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.top-content {
+    margin: 35px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-top: solid black 2px;
+    padding-top: 30px;
+}
+
+.text-content-top {
+    width: 45%;
+}
+
+.middle-img {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-content {
+    margin: 35px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.text-content {
+    width: 30%;
+}
+
+.contact {
+    border-top: solid black 2px;
+    /* padding-top: 20px; */
+    padding-top: 40px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* css for services.html */
+.text-content-services {
+    display: flex;
+    /* border: 1px solid red; */
+    border-top: 1px solid black;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 40px;
+    height: 900px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.services-box {
+    height: 190px;
+    width: 320px;
+    border: 1px solid black;
+    padding: 25px;
+    /* margin: 15px; */
+    background: #f6f6f6;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    background: white;
+    text-decoration: none;
+    border: 1px solid black;
+    width: 140px;
+    font-size: 11px;
+}
+
+.container-services {
+    margin: 0 auto;
+    width: 95%;
+}
+
+
+.main-nav2 {
+    color: grey;
+    text-decoration: none;
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+}
+
+.main-nav2 a {
+    /* text-decoration: none; */
+    color: grey;
+}
+
+.header2 {
+    width: 850px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.ending {
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 1px solid green; */
+    border-top: 2px solid black;
+    padding-top: 35px;
+    height: 350px;
+    margin: 0 auto;
+    width: 90;
+    justify-content: center;
+}
+
+.ending div {
+    /* border: 1px solid red; */
+    width: 400px;
+    padding: 15px;
+}
+
+.ending ul {
+    list-style-type: square;
+    padding-left: 15px;
+    line-height: 2.5;
+}
+
+
+.last-img {
+    max-width:100%;
+    height: auto;
+}
+
+
+
+.pitch {
+    margin-top: 40px;
+    /* font-size: 30px; */
+}
+
+.pitch h4 {
+    font-size: 30px;
+}
+
+.copyright {
+    display: flex;
+    width: 90%;
+    margin: 0 40%;
+}
+
