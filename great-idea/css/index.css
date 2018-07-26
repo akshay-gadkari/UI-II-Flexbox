@@ -118,9 +118,11 @@ header {
     text-align: center;
 }
 
-.cta button {
-    display: flex;
+.cta .cta-text button {
+    /* display: flex; */
     margin: 0 auto;
+    font-size: 15px;
+    color: black;
 }
 
 .main-content {
